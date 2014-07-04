@@ -1,4 +1,7 @@
 <?php
+/**
+ * This trait handles hashing of the `password` property when saving.
+ */
 trait SecurePassword
 {
     protected function initSecurePassword()
